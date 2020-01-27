@@ -25,3 +25,9 @@ https://docs.microsoft.com/en-us/ef/core/miscellaneous/cli/dotnet
 https://www.entityframeworktutorial.net/efcore/entity-framework-core-migration.aspx
 
 https://www.learnentityframeworkcore.com/migrations/seeding
+
+### CLI Help
+
+https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore22
+
+https://www.c-sharpcorner.com/article/add-class-library-in-asp-net-core-using-net-core-command-line-interface-cli/
