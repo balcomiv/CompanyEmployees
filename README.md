@@ -35,13 +35,20 @@ https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore22
 
 https://www.c-sharpcorner.com/article/add-class-library-in-asp-net-core-using-net-core-command-line-interface-cli/
 
+### Code Generation
+
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/tools/dotnet-aspnet-codegenerator?view=aspnetcore-3.1
+
 ### CLI Example Commands
 
 dotnet sln add Contracts/Contracts.csproj
 dotnet new classlib -n Contracts -o Contracts
 dotnet ef migrations script -i -o ../migration-scripts/initial-data.sql
 dotnet add reference ../Repository/Repository.csproj
+dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection
 
 ### Use this with the PDF to clarify items they missed in the PDF
 
 https://code-maze.com/net-core-web-development-part4/
+
+https://github.com/CodeMazeBlog/.NET-Core-Series/tree/master/Part%205/AccountOwnerServer
