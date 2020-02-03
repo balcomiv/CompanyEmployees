@@ -50,6 +50,7 @@ namespace CompanyEmployees
 
 
             //  Book adds these. Find out more about them
+            app.ConfigureExceptionHandler();
             app.UseStaticFiles();
             app.UseCors("CorsPolicy");
             app.UseForwardedHeaders(new ForwardedHeadersOptions

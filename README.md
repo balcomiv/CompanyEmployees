@@ -46,9 +46,18 @@ dotnet new classlib -n Contracts -o Contracts
 dotnet ef migrations script -i -o ../migration-scripts/initial-data.sql
 dotnet add reference ../Repository/Repository.csproj
 dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection
+dotnet add package System.Text.Json
 
 ### Use this with the PDF to clarify items they missed in the PDF
 
 https://code-maze.com/net-core-web-development-part4/
 
 https://github.com/CodeMazeBlog/.NET-Core-Series/tree/master/Part%205/AccountOwnerServer
+
+### JSON Serialization
+
+https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-how-to
+
+https://devblogs.microsoft.com/dotnet/try-the-new-system-text-json-apis/
+
+https://codeburst.io/working-with-json-in-net-core-3-2fd1236126c1
