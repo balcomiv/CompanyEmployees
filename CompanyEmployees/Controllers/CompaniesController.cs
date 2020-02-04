@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 namespace CompanyEmployees.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class CompaniesController : ControllerBase
     {
         private readonly IRepositoryManager _repository;
