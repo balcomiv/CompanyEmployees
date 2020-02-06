@@ -35,6 +35,13 @@ namespace CompanyEmployees
 
             services.AddAutoMapper(typeof(Startup));
 
+            //  Overriding && Restricting Media Types
+            // services.AddControllers(config =>
+            // {
+            //     config.RespectBrowserAcceptHeader = true;
+            //     config.ReturnHttpNotAcceptable = true;
+            //}).AddXmlDataContractSerializerFormatters();
+
             services.AddControllers();
         }
 
